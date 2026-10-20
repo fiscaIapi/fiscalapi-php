@@ -1,0 +1,47 @@
+{
+    "name": "fiscalapi-br/fiscalapi-php",
+    "description": "SDK da FiscalAPI (Brasil): Inscrição Estadual, CNPJ, certidões, NF-e, SIGEF, CNIR e perfil do produtor rural.",
+    "type": "library",
+    "license": "MIT",
+    "keywords": [
+        "fiscalapi",
+        "inscricao estadual",
+        "sefaz",
+        "cnpj",
+        "cnd",
+        "certidao",
+        "nfe",
+        "sigef",
+        "cnir",
+        "produtor rural",
+        "brasil"
+    ],
+    "homepage": "https://fiscalapi.com.br",
+    "support": {
+        "email": "contato@fiscalapi.com.br",
+        "docs": "https://docs.fiscalapi.com.br",
+        "issues": "https://github.com/fiscaIapi/fiscalapi-php/issues",
+        "source": "https://github.com/fiscaIapi/fiscalapi-php"
+    },
+    "authors": [
+        {
+            "name": "FiscalAPI",
+            "email": "contato@fiscalapi.com.br",
+            "homepage": "https://fiscalapi.com.br"
+        }
+    ],
+    "require": {
+        "php": ">=8.1",
+        "ext-curl": "*",
+        "ext-json": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "FiscalApiBr\\": "src/"
+        }
+    },
+    "minimum-stability": "stable",
+    "config": {
+        "sort-packages": true
+    }
+}
